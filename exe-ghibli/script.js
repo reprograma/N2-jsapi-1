@@ -20,3 +20,30 @@ const obj = [
         "description": "It’s 1982, and Taeko is 27 years old, unmarried, and has lived her whole life in Tokyo. She decides to visit her family in the countryside, and as the train travels through the night, memories flood back of her younger years: the first immature stirrings of romance, the onset of puberty, and the frustrations of math and boys. At the station she is met by young farmer Toshio, and the encounters with him begin to reconnect her to forgotten longings. In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self."
      }
     ]
+
+
+    //COMEÇO DO EXERCÍCIO (dados estáticos)
+
+    const app = document.getElementById("root");
+    const container = document.createElement("div");
+    container.setAttribute("class", "container");
+
+    app.appendChild(container);
+
+    for(let i =0; i< obj.length; i++){
+      console.log(obj[i].title)
+      console.log(obj[i].description)
+      let card = document.createElement("div");
+      card.setAttribute("class", "card");
+      container.appendChild(card);
+      let title = document.createElement("h1");
+      title.innerHTML = obj [i].title
+      card.appendChild(title)
+
+      let description = document.createElement ("h3");
+      description.innerHTML = obj[i].description
+      card.appendChild(description)
+
+    }
+
+
