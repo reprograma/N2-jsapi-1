@@ -33,3 +33,36 @@ const data = [{
     "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/005.png",
     "types": ["fire"]
 }]
+
+    //COMEÇO DO EXERCÍCIO (dados estáticos)
+
+    const app = document.getElementById("root");
+    const container = document.createElement("div");
+    container.setAttribute("class", "container");
+
+    app.appendChild(container);
+
+    for(let i =0; i< data.length; i++){
+        console.log(data[i].name)
+        console.log(data[i].description)
+    
+
+    let card = document.createElement("div");
+      card.setAttribute("class", "card");
+      container.appendChild(card);
+      
+      let name = document.createElement("h1");
+      name.innerHTML = data [i].name
+      card.appendChild(name)
+
+      let description = document.createElement ("h3");
+      description.innerHTML = data[i].description
+      card.appendChild(description)
+
+      let img = document.createElement ("img");
+      img.setAttribute("src", data[i].art_url);
+      card.appendChild(img);
+
+      
+    }
+
