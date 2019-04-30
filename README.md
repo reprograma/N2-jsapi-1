@@ -29,8 +29,8 @@
 * [Postman](https://www.getpostman.com/)
 
 ----
-**Thanks**
-Isabelle Galvão
+**Isabelle Galvão**
+
 
 * [GitHub](https://github.com/isabellegalvao)
 * [Facebook](https://www.facebook.com/galvaoiisabelle)
