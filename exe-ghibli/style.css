@@ -71,7 +71,7 @@ p {
 }
 
 .card:nth-child(2n) h1 {
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-image: linear-gradient(120deg, #fdfb5d 0%, #cb48ff 100%);
 }
 
 .card:nth-child(4n) h1 {

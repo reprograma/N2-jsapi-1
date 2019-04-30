@@ -18,6 +18,10 @@ const obj = [
       {
         "title": "Only Yesterday",
         "description": "It’s 1982, and Taeko is 27 years old, unmarried, and has lived her whole life in Tokyo. She decides to visit her family in the countryside, and as the train travels through the night, memories flood back of her younger years: the first immature stirrings of romance, the onset of puberty, and the frustrations of math and boys. At the station she is met by young farmer Toshio, and the encounters with him begin to reconnect her to forgotten longings. In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self."
+     },
+      {
+        "title": "Howl's Moving Castle",
+        "description": "The story is set in a fictional kingdom where both magic and early 20th-century technology are prevalent, against the backdrop of a war with another kingdom. The film tells the story of a young hatter named Sophie after she is turned into an old woman by a witch's curse. She encounters a wizard named Howl, and gets caught up in his resistance to fighting for the king."
      }
     ]
 
