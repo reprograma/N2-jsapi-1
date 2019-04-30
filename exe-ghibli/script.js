@@ -20,3 +20,42 @@ const obj = [
         "description": "It’s 1982, and Taeko is 27 years old, unmarried, and has lived her whole life in Tokyo. She decides to visit her family in the countryside, and as the train travels through the night, memories flood back of her younger years: the first immature stirrings of romance, the onset of puberty, and the frustrations of math and boys. At the station she is met by young farmer Toshio, and the encounters with him begin to reconnect her to forgotten longings. In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self."
      }
     ]
+
+    //Aqui começa o exercicio
+    
+    const app = document.getElementById("root");
+    const container = document.createElement("div");
+    //Atribuindo uma class dentro da div chamada container
+    container.setAttribute("class", "container");
+
+    app.appendChild(container);
+
+    //Fazer com que o servidor leia a array de filmes e imprima isso no console
+      //usando forEach
+      obj.forEach(filme => {
+        console.log(filme.title)
+        console.log(filme.description)
+        
+        //Criando os Cards para cada item do array
+        let card = document.createElement("div");
+        card.setAttribute("class", "card");
+        //o espaço container vai adotar as variaveis criadas, cards
+        container.appendChild(card);
+
+        //Criando o elemento de um titulo
+        let titulo = document.createElement("h1");
+        titulo.innerHTML = filme.title
+        card.appendChild(titulo);
+
+        //Criando o elemento da descrição 
+        let descricao = document.createElement("p");
+        descricao.textContent = filme.description
+        card.appendChild(descricao);
+      });
+
+      //usando for
+      // for(let i=0; i<obj.length; i++){
+      //   console.log(obj[i].title + obj[i].description)
+      // }
+
+      
