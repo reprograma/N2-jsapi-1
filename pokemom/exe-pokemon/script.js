@@ -61,8 +61,6 @@ const data = [{
 
       let img = document.createElement ("img");
       img.setAttribute("src", data[i].art_url);
-      card.appendChild(img);
-
-      
+      name.appendChild(img);
     }
 
