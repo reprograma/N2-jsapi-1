@@ -25,6 +25,7 @@ const obj = [
      }
     ]
 
+
     //Aqui começa o exercicio
     
     const app = document.getElementById("root");
@@ -63,3 +64,4 @@ const obj = [
       // }
 
       
+

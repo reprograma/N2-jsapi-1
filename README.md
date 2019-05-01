@@ -23,3 +23,16 @@
 
 * Principais métodos do protocolo HTTP - Verbos - Postman
 * Exercício guiado -  Inserindo, atualizando e excluindo dados dinâmicos - Postman (Formato DOJO)
+
+----
+**Links e Referências**
+* [Postman](https://www.getpostman.com/)
+
+----
+**Isabelle Galvão**
+
+
+* [GitHub](https://github.com/isabellegalvao)
+* [Facebook](https://www.facebook.com/galvaoiisabelle)
+* [Instagram](https://www.instagram.com/galvaoiisabelle/)
+* [Linkedin](https://www.linkedin.com/in/galvaoisabelle/)
