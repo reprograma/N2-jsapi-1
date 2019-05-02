@@ -32,7 +32,7 @@
 * Exercício guiado -  Inserindo, atualizando e excluindo dados dinâmicos - Postman (Formato DOJO)
 
 ---
-###Guia
+### Guia
 
 **O que é o HTTP?**
 HTTP significa **H**yper**T**ext **T**ransfer **P**rotocol ou Protocolo de Transferência de Hipertexto. É um protocolo de comunicação da camada de aplicação que permite que aplicações web se comuniquem e troquem informações e dados. É o mensageiro da web.
@@ -53,7 +53,7 @@ Embora o JSON se pareça com um objeto ou uma matriz, o JSON é uma string. Uma 
 
 
 ----
-###Links e Referências
+### Links e Referências
 * [Postman](https://www.getpostman.com/)
 * [HTTP Como funcionam requests e responses?](http://gabsferreira.com/o-que-e-o-http-como-funciona-request-respose/)
 * [HTTP Cat](https://http.cat/)
