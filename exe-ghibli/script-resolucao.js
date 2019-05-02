@@ -28,20 +28,41 @@ container.setAttribute('class', 'container');
 
 app.appendChild(container);
 
-for(let i=0; i < obj.length; i++){
-    let movie = obj[i];
-    const card = document.createElement('div');
-    card.setAttribute('class', 'card');
-  
-    const h1 = document.createElement('h1');
-    h1.textContent = movie.title;
-  
-    const p = document.createElement('p');
-    movie.description = movie.description;
-    p.textContent = movie.description;
-  
-    container.appendChild(card);
-    card.appendChild(h1);
-    card.appendChild(p);
-  
-  }
+
+// //---------- COM FOREACH
+
+data.forEach(movie => {
+  const card = document.createElement('div');
+  card.setAttribute('class', 'card');
+
+  const h1 = document.createElement('h1');
+  h1.textContent = movie.title;
+
+  const p = document.createElement('p');
+  p.textContent = movie.description;
+
+  container.appendChild(card);
+  card.appendChild(h1);
+  card.appendChild(p);
+});
+
+// //---------- COM FOR
+
+// for(let i=0; i < data.length; i++){
+//   let movie = data[i];
+//   const card = document.createElement('div');
+//   card.setAttribute('class', 'card');
+
+//   const h1 = document.createElement('h1');
+//   h1.textContent = movie.title;
+
+//   const p = document.createElement('p');
+//   p.textContent = movie.description;
+
+//   container.appendChild(card);
+//   card.appendChild(h1);
+//   card.appendChild(p);
+
+// }
+
+
