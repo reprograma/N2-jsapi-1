@@ -2,7 +2,7 @@
 > Entendo API e HTTP e consumindo dados dinâmicos
 
 
-![Image of Yaktocat](https://octodex.github.com/images/collabocats.jpg)
+![Imagem dos Collabocats](https://octodex.github.com/images/collabocats.jpg)
 
 **Entendendo sobre API e HTTP e trabalhando com dados fixos.**
 
@@ -32,15 +32,18 @@
 * Exercício guiado -  Inserindo, atualizando e excluindo dados dinâmicos - Postman (Formato DOJO)
 
 ---
-### Guia
+## Guia
 
 **O que é o HTTP?**
+
 HTTP significa **H**yper**T**ext **T**ransfer **P**rotocol ou Protocolo de Transferência de Hipertexto. É um protocolo de comunicação da camada de aplicação que permite que aplicações web se comuniquem e troquem informações e dados. É o mensageiro da web.
 
 **O que é o API?**
+
 API significa **A**pplication **P**rogramming **I**nterface ou Interface entre Aplicativo e Programação. É um conjunto de instruções e padrões de programação para acesso a um aplicativo de software. Uma empresa de software lança sua API para o público de modo que outros criadores de software possam desenvolver produtos acionados por esse serviço.
 
 **O que é o JSON?**
+
 JSON significa **J**ava**S**cript **O**bject **N**otation. São dados salvos em um arquivo .json e consistem em uma série de pares chave / valor.
 
 ```javascript
@@ -51,6 +54,10 @@ O valor de qualquer chave JSON pode ser uma string, Boolean, number, null, array
 
 Embora o JSON se pareça com um objeto ou uma matriz, o JSON é uma string. Uma string serializada, o que significa que ela pode ser analisada e decodificada posteriormente em tipos de dados.
 
+**O que é o XMLHttpRequest?**
+
+XMLHttpRequest é um objeto que fornece funcionalidade ao cliente para transferir dados entre um cliente e um servidor. Ele fornece uma maneira fácil de recuperar dados de um URL sem ter que fazer uma atualização de página inteira.
+
 
 ----
 ### Links e Referências
@@ -59,10 +66,11 @@ Embora o JSON se pareça com um objeto ou uma matriz, o JSON é uma string. Uma 
 * [HTTP Cat](https://http.cat/)
 * [HTTP Dogs](https://httpstatusdogs.com/)
 * [O que é uma API?](https://usemobile.com.br/o-que-e-uma-api/)
+* [Doc XMLHTTPRequest](https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHTTPRequest)
 
 ----
 
-**Isabelle Galvão**
+### Isabelle Galvão
 
 * [GitHub](https://github.com/isabellegalvao)
 * [Facebook](https://www.facebook.com/galvaoiisabelle)
