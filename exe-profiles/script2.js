@@ -3,14 +3,13 @@ const authors = document.createElement('div');
 authors.setAttribute('class', 'authors');
 app.appendChild(authors);
 
-const request = new XMLHttpRequest();
-request.open('GET', 'https://randomuser.me/api/?results=10', true);
-request.onload = function() {
-    
-const data = JSON.parse(this.response);
-
-if (request.status>=200 && request.status<400){
-    console.log('Sucesso')
+fetch('https://randomuser.me/api/?results=10')
+.then(function(response){
+    return response.json();
+})
+.then(function(data){
+    console.log("SUCESSO!!")
+    console.log(data)
     data.results.forEach(pessoas => {
         const card=document.createElement('div');
         card.setAttribute('class', 'card');
@@ -37,6 +36,8 @@ if (request.status>=200 && request.status<400){
         card.appendChild(phone);
 
     });
-}
-}
-request.send()
+    
+})
+.catch(function(erro){
+    console.log(erro)
+})
