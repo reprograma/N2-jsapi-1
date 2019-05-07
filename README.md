@@ -4,7 +4,7 @@
 
 ![Imagem dos Collabocats](https://octodex.github.com/images/collabocats.jpg)
 
-###Semana 1
+### Semana 1
 
 **Entendendo sobre API e HTTP e trabalhando com dados fixos.**
 
@@ -34,13 +34,49 @@
 * Exercício -  Consumindo API - CEP (Template será disponibilizado)
 
 ----
-###Semana 2
+### Semana 2
 
+**Entendendo sobre Rest , verbos e trabalhando com dados dinâmicos com Postman**
+
+* Rest
+* Exercício CEP - Correção
+* Exercício guiado -  Inserindo, atualizando e excluindo dados dinâmicos - Postman (Formato DOJO)
+
+**Consumindo dados dinâmicos com Fetch API**
+
+* Fetch API
+* Promisses
+* Requisições assíncronas
+* Exercício guiado - Inserindo (Template será disponibilizado)
+* Exercício guiado - Atualizando (Template será disponibilizado)
+* Exercício guiado - Excluindo (Template será disponibilizado)
+
+**Praticando comsumo de API com Fetch API e Template String**
+
+* Diferença entre innerHTML e textContent
+* Template String
+* Exercício guiado - Twitter Like - Feed, postar, editar post, excluir post (Template será disponibilizado)
+
+**Praticando comsumo de API com Fetch API e Template String**
+
+* Diferença entre innerHTML e textContent
+* Template String
+* Exercício guiado - Twitter Like - Feed, postar, editar post, excluir post (Template será disponibilizado)
+
+**Reforçando conceitos e praticando**
+* Git e GitHub (Fork, clone, origin/remote, add e commit - como sair do editor)
+* Leitura documentação
+* Postman
+<!-- * queryParams - body  -->
+
+**Extra**
+
+* Exercício - Giphy 
 
 ---
 ## Guia
 
-####O que é o HTTP?
+#### O que é o HTTP?
 
 HTTP significa **H**yper**T**ext **T**ransfer **P**rotocol ou Protocolo de Transferência de Hipertexto. É um protocolo de comunicação da camada de aplicação que permite que aplicações web se comuniquem e troquem informações e dados. É o mensageiro da web.
 
@@ -77,7 +113,7 @@ Status Code | Significado
 500 | erro no servidor
 
 
-####O que é o API?
+#### O que é o API?
 
 API significa **A**pplication **P**rogramming **I**nterface ou Interface entre Aplicativo e Programação. É um conjunto de instruções e padrões de programação para acesso a um aplicativo de software. Uma empresa de software lança sua API para o público de modo que outros criadores de software possam desenvolver produtos acionados por esse serviço.
 
@@ -89,7 +125,7 @@ Vídeo: [Canal Código Fonte TV - API // Dicionário do Programador
 ](https://www.youtube.com/watch?v=vGuqKIRWosk)
 Texto: [O que é uma API?](https://usemobile.com.br/o-que-e-uma-api/)
 
-####O que é o JSON?
+#### O que é o JSON?
 
 JSON significa **J**ava**S**cript **O**bject **N**otation. São dados salvos em um arquivo .json e consistem em uma série de pares chave / valor.
 
@@ -106,7 +142,7 @@ Embora o JSON se pareça com um objeto ou uma matriz, o JSON é uma string. Uma 
 Vídeo: [Canal Código Fonte TV - JSON // Dicionário do Programador
 ](https://www.youtube.com/watch?v=P81dE-tkaaA)
 
-####O que é o XMLHttpRequest?
+#### O que é o XMLHttpRequest?
 
 O objeto XMLHttpRequest é usado para recuperar dados de um servidor (uma URL) de forma assíncrona, sem ter que fazer uma atualização de página inteira. Antigamente XMLHttpRequest usado para buscar somente dados XML. Mas hoje ele pode ser usado com protocolos diferentes de HTTP e pode buscar dados não apenas na forma de XML, mas também em JSON, HTML ou texto simples.
 
@@ -129,7 +165,7 @@ Podemos configurar dois Listeners para lidar com os casos de sucesso e erro e um
     xhr.send();
 ```
 
-####O que é o Fetch API?
+#### O que é o Fetch API?
 ![confetch api](https://media.giphy.com/media/KESQSCbtsnzq/giphy.gif)
 
 A Fetch torna mais fácil fazer requisições assíncronas e lidar com as respostas melhor do que com o antigo XMLHttpRequest. É uma melhoria em relação à API XMLHttpRequest. A principal diferença entre o Fetch e o XMLHttpRequest é que o Fetch API usa o Promises, evitando dores de cabeça com callbacks.
@@ -169,7 +205,7 @@ O fetch() aceita um segundo parâmetro, onde podemos passar um objeto de configu
 O fetch() já tem um bom suporte por parte dos navegadores modernos, como você pode visualizar aqui no [Can I Use](https://caniuse.com/#feat=fetch).
 
 ----
-### Links e Referências
+###  Links e Referências
 * [Postman](https://www.getpostman.com/)
 * [HTTP Como funcionam requests e responses?](http://gabsferreira.com/o-que-e-o-http-como-funciona-request-respose/)
 * [HTTP Cat](https://http.cat/)
@@ -179,7 +215,7 @@ O fetch() já tem um bom suporte por parte dos navegadores modernos, como você 
 
 ----
 
-### Isabelle Galvão
+###  Isabelle Galvão
 
 * [GitHub](https://github.com/isabellegalvao)
 * [Facebook](https://www.facebook.com/galvaoiisabelle)
